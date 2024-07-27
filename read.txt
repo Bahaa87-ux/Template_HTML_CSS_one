@@ -1,0 +1,8 @@
+عمل كلاس جاهز لاي صفحه تحتوي علي 3 عناصر طمب بعض 
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+
+}
